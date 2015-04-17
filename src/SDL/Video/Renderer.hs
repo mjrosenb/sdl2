@@ -5,7 +5,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE PatternSynonyms #-}
 module SDL.Video.Renderer
-  ( Renderer
+  ( Renderer(Renderer)
 
   -- * Drawing Primitives
   , blitScaled
@@ -57,7 +57,7 @@ module SDL.Video.Renderer
   , Rectangle(..)
   , Surface(..)
   , SurfacePixelFormat
-  , Texture
+  , Texture(Texture)
   , TextureInfo(..)
   , TextureAccess(..)
   , PixelFormat(..)
